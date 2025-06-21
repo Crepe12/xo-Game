@@ -1,0 +1,388 @@
+{
+  "Overlay": {
+    "Initialize": true,
+    "Enabled": true,
+    "DesiredAnimationFrameRate": 30,
+    "GameScanDelay": 150,
+    "Position": [
+      0,
+      0
+    ],
+    "ToggleOverlayKeybind": "Ctrl+Alt+Z",
+    "EnableHardwareAcceleration": false,
+    "EnableAntiAliasing": true,
+    "HideWhenGameIsUnfocused": false,
+    "ToggleDesignModeKey": 0,
+    "ToggleDesignKeybind": "Scroll",
+    "EnableForceDirectX11Fullscreen": false,
+    "MonstersComponent": {
+      "SwitchMonsterBarModeHotkey": "Alt+Up",
+      "Initialize": true,
+      "Enabled": true,
+      "Scale": 1.0,
+      "HealthTextFormat": "{Health:0}/{TotalHealth:0} ({Percentage:0}%)",
+      "HideHealthInformation": false,
+      "EnableNameOwofy": false,
+      "ShowMonsterBarMode": 0,
+      "Position": [
+        586,
+        11
+      ],
+      "MonsterBarDock": 0,
+      "MaxNumberOfPartsAtOnce": 8,
+      "MaxPartColumns": 1,
+      "ShowMonsterWeakness": true,
+      "HidePartsAfterSeconds": true,
+      "HideAilmentsAfterSeconds": true,
+      "SecondsToHideParts": 10,
+      "EnableRemovableParts": true,
+      "EnableMonsterParts": true,
+      "EnableSortParts": true,
+      "EnableOnlyPartsThatCanBeBroken": false,
+      "HidePartsThatHaveAlreadyBeenBroken": false,
+      "EnableMonsterAilments": true,
+      "EnabledPartGroups": [
+        "HEAD",
+        "BODY",
+        "ARM",
+        "WING",
+        "LEG",
+        "TAIL",
+        "LIMB",
+        "ABDOMEN",
+        "CHEST",
+        "REAR",
+        "JAW",
+        "BACK",
+        "FIN",
+        "HORN",
+        "NECK",
+        "SHELL",
+        "ORGAN",
+        "MANE",
+        "BONE",
+        "MISC"
+      ],
+      "EnabledAilmentGroups": [
+        "POISON",
+        "PARALYSIS",
+        "SLEEP",
+        "BLAST",
+        "MOUNT",
+        "EXHAUSTION",
+        "STUN",
+        "TRANQUILIZE",
+        "FLASH",
+        "KNOCKDOWN",
+        "DUNGPOD",
+        "TRAP",
+        "ELDERSEAL",
+        "SMOKING",
+        "CLAW",
+        "MISC",
+        "ENRAGE"
+      ],
+      "Opacity": 1.0,
+      "UseLockonInsteadOfPin": false,
+      "EnableAilmentsBarColor": true,
+      "AilmentBuildupTextFormat": "{Current}/{Max}",
+      "AilmentTimerTextFormat": "{Current}/{Max}",
+      "PartTextFormat": "{Current}/{Max}",
+      "ShowMonsterActionName": true,
+      "StreamerMode": false
+    },
+    "HarvestBoxComponent": {
+      "Initialize": true,
+      "Enabled": true,
+      "AlwaysShow": false,
+      "Scale": 1.0,
+      "Position": [
+        1677,
+        291
+      ],
+      "ShowSteamTracker": true,
+      "ShowArgosyTracker": true,
+      "ShowTailraidersTracker": true,
+      "BackgroundOpacity": 0.5,
+      "Opacity": 1.0,
+      "CompactMode": false,
+      "StreamerMode": false
+    },
+    "PlayerHealthComponent": {
+      "Initialize": true,
+      "Enabled": false,
+      "Scale": 1.0,
+      "NameTextFormat": "Lv. {MR} {Name}",
+      "HideHealthInVillages": true,
+      "Position": [
+        20,
+        20
+      ],
+      "Opacity": 1.0,
+      "StreamerMode": false,
+      "MinimalisticMode": false
+    },
+    "PrimaryMantle": {
+      "Initialize": true,
+      "Enabled": true,
+      "Scale": 1.0,
+      "Position": [
+        1554,
+        187
+      ],
+      "Color": "#FF80FFFF",
+      "Opacity": 1.0,
+      "CompactMode": false,
+      "StreamerMode": false
+    },
+    "SecondaryMantle": {
+      "Initialize": true,
+      "Enabled": true,
+      "Scale": 1.0,
+      "Position": [
+        1555,
+        236
+      ],
+      "Color": "#FF9854E2",
+      "Opacity": 1.0,
+      "CompactMode": false,
+      "StreamerMode": false
+    },
+    "DPSMeter": {
+      "Initialize": true,
+      "Enabled": true,
+      "ShowTotalDamage": true,
+      "ShowDPSWheneverPossible": true,
+      "Scale": 0.8,
+      "Position": [
+        -2,
+        478
+      ],
+      "PartyMembers": [
+        {
+          "Color": "#FFE14136"
+        },
+        {
+          "Color": "#FF65B2B7"
+        },
+        {
+          "Color": "#FFECE2A0"
+        },
+        {
+          "Color": "#FF4AAB3F"
+        }
+      ],
+      "ShowOnlyMyself": false,
+      "ShowTimerInExpeditions": true,
+      "BackgroundOpacity": 0.5,
+      "Opacity": 1.0,
+      "ShowOnlyTimer": false,
+      "ShowTimer": true,
+      "Width": 257.6,
+      "EnableDamagePlot": true,
+      "DamagePlotMode": 0,
+      "DamagePlotPollInterval": 200,
+      "StreamerMode": false
+    },
+    "AbnormalitiesWidget": {
+      "ActiveBars": 1,
+      "BarPresets": [
+        {
+          "Initialize": true,
+          "Name": "Abnormality Tray",
+          "Position": [
+            585,
+            95
+          ],
+          "Orientation": "Horizontal",
+          "MaxSize": 300,
+          "Scale": 1.0,
+          "AcceptedAbnormalities": [
+            "*"
+          ],
+          "Enabled": true,
+          "OrderBy": 0,
+          "ShowTimeLeftText": true,
+          "TimeLeftTextFormat": 0,
+          "Opacity": 1.0,
+          "BackgroundOpacity": 0.7,
+          "ShowNames": false,
+          "StreamerMode": false
+        }
+      ]
+    },
+    "ClassesWidget": {
+      "Initialize": true,
+      "GreatswordHelper": {
+        "Enabled": true,
+        "Position": [
+          683,
+          384
+        ],
+        "Opacity": 1.0,
+        "Scale": 1.0
+      },
+      "DualBladesHelper": {
+        "Enabled": true,
+        "Position": [
+          683,
+          384
+        ],
+        "Opacity": 1.0,
+        "Scale": 1.0
+      },
+      "LongSwordHelper": {
+        "Enabled": true,
+        "Position": [
+          683,
+          384
+        ],
+        "Opacity": 1.0,
+        "Scale": 1.0
+      },
+      "HammerHelper": {
+        "Enabled": true,
+        "Position": [
+          1139,
+          549
+        ],
+        "Opacity": 1.0,
+        "Scale": 1.0
+      },
+      "LanceHelper": {
+        "Enabled": true,
+        "Position": [
+          683,
+          384
+        ],
+        "Opacity": 1.0,
+        "Scale": 1.0
+      },
+      "HuntingHornHelper": {
+        "Enabled": false,
+        "Position": [
+          683,
+          384
+        ],
+        "Opacity": 1.0,
+        "Scale": 1.0
+      },
+      "ChargeBladeHelper": {
+        "Enabled": true,
+        "Position": [
+          683,
+          384
+        ],
+        "Opacity": 1.0,
+        "Scale": 1.0
+      },
+      "InsectGlaiveHelper": {
+        "Enabled": true,
+        "Position": [
+          683,
+          384
+        ],
+        "Opacity": 1.0,
+        "Scale": 1.0
+      },
+      "GunLanceHelper": {
+        "Enabled": true,
+        "Position": [
+          683,
+          384
+        ],
+        "Opacity": 1.0,
+        "Scale": 1.0
+      },
+      "SwitchAxeHelper": {
+        "Enabled": true,
+        "Position": [
+          1367,
+          551
+        ],
+        "Opacity": 1.0,
+        "Scale": 1.0
+      },
+      "BowHelper": {
+        "Enabled": true,
+        "Position": [
+          683,
+          384
+        ],
+        "Opacity": 1.0,
+        "Scale": 1.0
+      },
+      "HeavyBowgunHelper": {
+        "Enabled": true,
+        "Position": [
+          683,
+          384
+        ],
+        "Opacity": 1.0,
+        "Scale": 1.0
+      },
+      "LightBowgunHelper": {
+        "Enabled": true,
+        "Position": [
+          683,
+          384
+        ],
+        "Opacity": 1.0,
+        "Scale": 1.0
+      },
+      "Enabled": false,
+      "Position": null,
+      "Opacity": 1.0,
+      "Scale": 1.0,
+      "StreamerMode": false
+    },
+    "NotificationsWidget": {
+      "Initialize": true,
+      "Enabled": true,
+      "Position": [
+        1370,
+        680
+      ],
+      "Opacity": 1.0,
+      "Scale": 1.0,
+      "StreamerMode": false
+    }
+  },
+  "RichPresence": {
+    "Enabled": true,
+    "ShowMonsterHealth": true,
+    "LetPeopleJoinSession": true
+  },
+  "HunterPie": {
+    "Language": "Languages\\en-us.xml",
+    "Theme": null,
+    "MinimizeToSystemTray": true,
+    "StartHunterPieMinimized": false,
+    "Width": 1000.0,
+    "Height": 590.0,
+    "PosX": 44.0,
+    "PosY": 87.0,
+    "PluginProxyMode": 0,
+    "PluginRegistryUrl": "https://hunterpie-plugins.herokuapp.com/",
+    "MinimizeAfterGameStart": false,
+    "EnableNativeFunctions": true,
+    "Update": {
+      "Enabled": true,
+      "Branch": "master"
+    },
+    "Launch": {
+      "GamePath": "",
+      "LaunchArgs": ""
+    },
+    "Options": {
+      "CloseWhenGameCloses": false
+    },
+    "Debug": {
+      "ShowUnknownStatuses": false,
+      "ShowDebugMessages": false,
+      "CustomMonsterData": null,
+      "LoadCustomMonsterData": false,
+      "SendCrashFileToDev": true
+    }
+  }
+}

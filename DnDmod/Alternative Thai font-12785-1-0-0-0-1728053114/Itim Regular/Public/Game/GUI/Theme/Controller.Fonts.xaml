@@ -1,0 +1,24 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- INSTRUCTIONS FOR CHANGING FONTS:
+	Replace "/Assets/Fonts/Replacers/#Aller" with "/Assets/Fonts/Replacers/#YOURFONTNAME"
+	"YOURFONTNAME" can be any fonts in the GUI/Assets/Fonts/Replacers folder.
+	Be sure to use the font's actual Font Name exactly, including any spaces that may be present. 
+	
+	If using one of your own fonts, place the font file in the Assets/Fonts/Replacers folder.
+	Then, double-click the font file to view the Font Name in the top-left corner of that window, and copy its
+	exact spelling when replacing the "Aller" font below. 
+	
+	If you mess this up, the game will not display text at all, so close the game and come back to this file
+	and correct the error. Once you're done editing the file, make sure to save it as the same filename
+	(Keyboard.Fonts.xaml). That's it! Enjoy your new fonts in BG3!
+    -->
+    <FontFamily x:Key="DefaultFont" >/Assets/Fonts/Replacers/#Itim</FontFamily>
+    <FontFamily x:Key="SpecialFont" >/Assets/Fonts/Replacers/#Itim</FontFamily>
+	
+	<!-- NOTE: The "SpecialFont" is not really used in-game, but you are welcome to replace the font value
+	on this line to any font of your choosing if you'd like to try and find where it is used.
+	-->
+</ResourceDictionary>

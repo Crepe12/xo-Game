@@ -1,0 +1,5 @@
+1.ลงม็อด DIY Font Replacer โดยการ copy โฟลเดอร์ Public  ไปไว้ที่ที่ลงเกมเช่น steamapps\common\Baldurs Gate 3\Data
+2.ลงม็อด Fonts Changer (size and style)  เลือกขนาดฟอนต์ที่ต้องการ(ในดัวอย่างใช้1.6x) โดยการ copy โฟลเดอร์ Data  ไปไว้ที่ที่ลงเกมเช่น steamapps\common\Baldurs Gate 3 (และยืนยันการเขียนทับ)
+3.ลงม็อด Alternative Thai font for Baldur's Gate 3 โดยการ copy โฟลเดอร์ Public  ไปไว้ที่ที่ลงเกมเช่น steamapps\common\Baldurs Gate 3\Data (และยืนยันการเขียนทับ)
+
+ระวัง!!!!!!ม็อด Fonts Changer (size and style)  ลงให้ถูกที่

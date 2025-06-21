@@ -1,0 +1,126 @@
+[18:38:04] Loaded English game strings
+[18:38:05] Loaded monster data
+[18:38:05] Loaded abnormalities data
+[18:38:05] Loaded 101 different item crafting recipes!
+[18:38:05] Initializing HunterPie!
+[18:38:05] [MODULE] Pre loading modules
+[18:38:05] [MODULE] Pre loaded 0 module(s) in 1ms
+[18:38:06] Loaded 'MonsterHunterWorld.421810.map'
+[18:38:06] [LOG] Monster Hunter: World (421810) found! (PID: 7568)
+[18:38:06] [GMD] Indexed common\text\steam\item_eng (Strings: 5550 | Chunk Size: 247515 Bytes)
+[18:38:06] [GMD] Indexed common\text\vfont\music_skill_en (Strings: 99 | Chunk Size: 2269 Bytes)
+[18:38:06] [GMD] Indexed common\text\em_names_eng (Strings: 208 | Chunk Size: 9983 Bytes)
+[18:38:06] [MODULE] Loaded 0 module(s) in 0ms
+[18:38:06] Injected HunterPie.Native.dll succesfully!
+[18:38:06] [Socket] Connected to HunterPie.Native!
+[18:38:06] Initialized overlay with 9 widgets!
+[18:38:06] [DISCORD] Starting new RPC connection
+[18:38:06] Initialized player memory scanner
+[18:38:06] Initialized monster(1) scanner
+[18:38:06] Initialized monster(2) scanner
+[18:38:06] Initialized monster(3) scanner
+[18:38:06] Initialized game memory scanner
+[18:38:06] [LOG] Logged on Crepe12
+[18:38:06] [LOG] SESSION: Lb?DEwiHmpM@
+[18:38:07] [DISCORD] Connected to Discord on user: crepe12#0000
+[18:38:40] Exported decorations to ./DataExport/Decorations-HoneyHuntersWorld.txt!
+[18:38:40] Exported charms to ./DataExport/Charms-HoneyHuntersWorld.txt!
+[18:38:41] Exported decorations to ./DataExport/Decorations-HoneyHuntersWorld.txt!
+[18:38:41] Exported charms to ./DataExport/Charms-HoneyHuntersWorld.txt!
+[18:39:09] [LOG] SESSION: 
+[18:39:12] [LOG] Game process closed!
+[18:39:12] [MODULE] Unloaded all modules.
+[18:39:12] Stopping game scanner
+[18:39:13] [LOG] HunterPie is ready! Waiting for game process to start...
+[18:39:37] Loaded 'MonsterHunterWorld.421810.map'
+[18:39:37] [LOG] Monster Hunter: World (421810) found! (PID: 14616)
+[18:39:51] [GMD] Indexed common\text\steam\item_eng (Strings: 5550 | Chunk Size: 247515 Bytes)
+[18:39:51] [GMD] Indexed common\text\vfont\music_skill_en (Strings: 99 | Chunk Size: 2269 Bytes)
+[18:39:51] [GMD] Indexed common\text\em_names_eng (Strings: 208 | Chunk Size: 9983 Bytes)
+[18:39:51] [MODULE] Loaded 0 module(s) in 0ms
+[18:39:51] Injected HunterPie.Native.dll succesfully!
+[18:39:52] [Socket] Connected to HunterPie.Native!
+[18:39:52] Initialized overlay with 9 widgets!
+[18:39:52] [DISCORD] Starting new RPC connection
+[18:39:52] Initialized player memory scanner
+[18:39:52] Initialized monster(1) scanner
+[18:39:52] [LOG] SESSION: 
+[18:39:52] Initialized monster(2) scanner
+[18:39:52] Initialized monster(3) scanner
+[18:39:52] Initialized game memory scanner
+[18:39:53] [DISCORD] Connected to Discord on user: crepe12#0000
+[18:40:06] [LOG] SESSION: c3@uTKi--Gdk
+[18:40:06] [LOG] Logged on Crepe12
+[18:42:04] [LOG] SESSION: 
+[18:43:48] [LOG] Game process closed!
+[18:43:48] [MODULE] Unloaded all modules.
+[18:43:48] Stopping game scanner
+[18:43:50] Loaded 'MonsterHunterWorld.421810.map'
+[18:43:50] [LOG] Monster Hunter: World (421810) found! (PID: 6292)
+[18:44:04] [GMD] Indexed common\text\steam\item_eng (Strings: 5550 | Chunk Size: 247515 Bytes)
+[18:44:04] [GMD] Indexed common\text\vfont\music_skill_en (Strings: 99 | Chunk Size: 2269 Bytes)
+[18:44:04] [GMD] Indexed common\text\em_names_eng (Strings: 208 | Chunk Size: 9983 Bytes)
+[18:44:04] [MODULE] Loaded 0 module(s) in 0ms
+[18:44:04] Injected HunterPie.Native.dll succesfully!
+[18:44:05] [Socket] Connected to HunterPie.Native!
+[18:44:05] Initialized overlay with 9 widgets!
+[18:44:05] [DISCORD] Starting new RPC connection
+[18:44:05] Initialized player memory scanner
+[18:44:05] Initialized monster(1) scanner
+[18:44:05] [LOG] SESSION: 
+[18:44:05] Initialized monster(2) scanner
+[18:44:05] Initialized monster(3) scanner
+[18:44:05] Initialized game memory scanner
+[18:44:06] [DISCORD] Connected to Discord on user: crepe12#0000
+[18:44:40] [LOG] SESSION: z8m+fTvuBeMb
+[18:44:41] [LOG] Logged on Crepe12
+[19:05:27] [LOG] SESSION: 
+[19:05:28] [LOG] Game process closed!
+[19:05:28] [MODULE] Unloaded all modules.
+[19:05:28] Stopping game scanner
+[19:06:05] Loaded 'MonsterHunterWorld.421810.map'
+[19:06:05] [LOG] Monster Hunter: World (421810) found! (PID: 11416)
+[19:06:21] [GMD] Indexed common\text\steam\item_eng (Strings: 5550 | Chunk Size: 247515 Bytes)
+[19:06:21] [GMD] Indexed common\text\vfont\music_skill_en (Strings: 99 | Chunk Size: 2269 Bytes)
+[19:06:21] [GMD] Indexed common\text\em_names_eng (Strings: 208 | Chunk Size: 9983 Bytes)
+[19:06:21] [MODULE] Loaded 0 module(s) in 0ms
+[19:06:21] Injected HunterPie.Native.dll succesfully!
+[19:06:22] [Socket] Connected to HunterPie.Native!
+[19:06:22] Initialized overlay with 9 widgets!
+[19:06:22] [DISCORD] Starting new RPC connection
+[19:06:22] Initialized player memory scanner
+[19:06:22] Initialized monster(1) scanner
+[19:06:22] [LOG] SESSION: 
+[19:06:22] Initialized monster(2) scanner
+[19:06:22] Initialized monster(3) scanner
+[19:06:22] Initialized game memory scanner
+[19:06:23] [DISCORD] Connected to Discord on user: crepe12#0000
+[19:06:38] [LOG] SESSION: Zd?$&8Tz7c=d
+[19:06:38] [LOG] Logged on Crepe12
+[19:21:03] Exported decorations to ./DataExport/Decorations-HoneyHuntersWorld.txt!
+[19:21:03] Exported charms to ./DataExport/Charms-HoneyHuntersWorld.txt!
+[20:46:03] [LOG] SESSION: XdzLfaDKdnui
+[21:01:29] [LOG] SESSION: 
+[21:03:38] [LOG] SESSION: 8#@eH+YKw=Y$
+[21:04:50] [LOG] SESSION: +ez?u7Mb=6Zc
+[21:05:26] [LOG] SESSION: k4?@D!Bap!CB
+[21:25:14] [LOG] SESSION: 6#AFpNzf@nf?
+[21:40:33] [LOG] SESSION: 
+[21:41:22] [LOG] SESSION: Ncm!mvzs7kkr
+[21:41:23] [LOG] Logged on Crepe12
+[21:42:30] [LOG] SESSION: x7@p@D4$trbc
+[21:44:58] [LOG] SESSION: B8MCB2RZMRwu
+[22:02:42] [LOG] SESSION: x7@p@D4$trbc
+[22:04:48] [LOG] SESSION: !dMLTG$nxNpe
+[22:18:41] [LOG] SESSION: v7A3eDXjw-3t
+[22:20:40] [LOG] SESSION: 
+[22:21:11] [LOG] SESSION: !dMLTG$nxNpe
+[1:52:15] [LOG] SESSION: r6MXF88stsh@
+[1:52:16] [LOG] SESSION: 
+[1:52:45] [LOG] SESSION: r6MXF88stsh@
+[2:13:30] [LOG] SESSION: 
+[2:14:14] [LOG] SESSION: r6MXF88stsh@
+[3:56:15] [LOG] SESSION: 
+[3:56:19] [LOG] Game process closed!
+[3:56:19] [MODULE] Unloaded all modules.
+[3:56:19] Stopping game scanner

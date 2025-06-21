@@ -1,0 +1,977 @@
+v3.055: (2025-03-06)
+- When installing PAK mods for Monster Hunter Wilds, the mod manager now uses the new "sub" naming scheme.
+- Fixed a bug where right-clicking didn't correctly back out of AddonFor mod menus.
+- Added a brief message that's shown if wallpaper and logo download fails.
+
+v3.054: (2025-03-03)
+- PAK modification now isn't possible for Dragon's Dogma 2 and MH Wilds without toggling a switch in Advanced Options.
+- Removed FirstNatives download for MH Wilds and Dragon's Dogma 2 as it's not compatible with those games.
+- Fixed a bug that would make mod manager spam the message "Download interrupted" when failing to download a game logo or wallpaper.
+- Added mod managing support for Monster Hunter Wilds benchmark.
+
+v3.053: (2025-02-28)
+- Prevent PAK modification when installing mods for Monster Hunter Wilds.
+- Made it possible to download RE Framework for Monster Hunter Wilds.
+- Improved installation of RE Framework.
+- Tweaked a few warning messages.
+
+v3.052: (2025-02-28)
+- Added preliminary modding support for Monster Hunter Wilds.
+
+v3.051: (2025-02-16)
+- Fixed mods with a "NameAsBundle" entry not appearing in search results if there are mods with its name in an "AddonFor" entry.
+- Fixed ordering of mods in submenus so that the main mod is always listed first.
+- Improved the way the mod manager checks if a game has been patched.
+- Added mod managing support for Tomb Raider IV-VI Remastered.
+- Fixed a bug that prevented the mod manager from automatically finding the install path for Tomb Raider I-III Remastered.
+- Data\log.txt now lists graphics card vendor and model for the sake of troubleshooting.
+- Installing an addon mod (defined as having an AddonFor entry) will no longer warn the user if its main mod is not installed. Mod creators can add a "requires=ModName" entry if they want that behaviour.
+
+v3.050: (2025-02-07)
+- Updated UE4 modding so PAKs will be copied to the correct location when installing mods that are in an archive.
+- Updated UE4 modding to support copying UCAS/UTOC files alongside PAKs.
+- Made v-sync be on by default as the "Limit FPS" feature does not work for some people for an unknown reason.
+- Fixed a minor read-out-of-bounds error that could happen when parsing modinfo.ini for certain games.
+- Fixed a bug that could make NameAsBundle mods always appear in the Custom Search results no matter the search string.
+- Added mod managing support for Sekiro and Elden Ring.
+
+v3.049: (2025-02-05)
+- Fixed a bug that could prevent GPU usage from becoming 0% when out of focus.
+- Fixed a bug that could prevent GPU usage from becoming 0% when nothing was animating.
+- Fixed a bug that prevented the mod manager from automatically finding the install path for Re:Verse.
+- SF6: Added Mai as mod category.
+
+v3.048: (2025-01-24)
+- Made the mod manager accept both Steam and Game Pass installs of Ninja Gaiden 2 Black.
+
+v3.047: (2025-01-24)
+- Fixed "requirement" tag for modinfo.ini that can warn the user if a mod isn't installed.
+- Fixed a bug that prevented the mod manager from warning the user when installing an addon mod without its primary mod installed.
+- Fixed a bug that made the mod list appear empty after returning from a bundled mod menu.
+- Added a shortcut for re-defining game install path at Options -> Define Game Install Path.
+- Fixed a bug that prevent FF7 Rebirth an install path from being accepted.
+- Fixed a bug that could sometimes make the mod manager refuse to accept a game install path when manually selecting a game's executable.
+
+v3.046: (2025-01-24)
+- Improved rendering of very large game logos.
+- Fixed black boxes being visible during minigames.
+- When stepping back from deeply nested "addonFor" menus, you will now step back one menu at a time.
+- Added mod managing support for Final Fantasy VII Rebirth (UE4) and Ninja Gaiden 2 Black (UE5).
+- Renamed "Final Fantasy 7 Remake" to "Final Fantasy VII Remake" in menus.
+
+v3.045: (2024-11-09)
+- When installing mods for RE Engine games, the mod manager will now automatically temporarily rename the crash reporter executable so Capcom gets fewer crash reports related to modding.
+- Added mod managing support for Bayonetta.
+
+v3.044: (2024-11-01)
+- Added mod managing support for the Monster Hunter Wilds beta.
+- Fixed the order of games in the "Define game info" menu.
+
+v3.043: (2024-10-30)
+- Fixed Silent Hill 2 Remake support.
+- Fixed a crash when installing a mod that was stored in a folder containing a % symbol.
+
+v3.042: (2024-10-30)
+- Added mod managing support for Silent Hill 2 Remake.
+- Implemented a system for automatically downloading a wallpaper and logo image for each supported game.
+
+v3.041: (2024-10-04)
+- Re-added the "PAK invalidation skipped" message but re-worded it.
+
+v3.040: (2024-10-04)
+- Removed the "PAK invalidation skipped" message that could appear during mod installs.
+
+v3.039: (2024-10-03)
+- Fixed a crash introduced in the previous version that could occur after minimizing the application.
+
+v3.038: (2024-10-02)
+- SF6: Added Terry as category.
+- Installing loose-file mods while a game is running is now possible for RE Engine games if RE Framework is installed with "loose file loader" option enabled.
+- Added warning if user tries to install a loose-file mod for a new RE Engine game that blocks loading from "natives."
+- PAK invalidation is now skipped if user installs an RE Engine mod if RE Framework is installed with "loose file loader" option enabled.
+- Some Fluff has been added.
+
+v3.037: (2024-09-19)
+- Added mod managing support for Dead Rising Deluxe Remaster, Dead Rising, Ace Attorney Investigations, Marvel vs Capcom Collection, and Castlevania Dominus Collection.
+- Fixed a bug that prevented mod preview screenshots from loading after one load failed.
+- Fixed mod managing support for Snowbreak.
+
+v3.036: (2024-09-03)
+- Added missing name for Ace Attorney Investigations demo when selecting a game.
+- Made it possible to install mods that are just PAK files for Tekken 8.
+- When prompting the mod manager to delete a Tekken 8 mod, it will now delete the UCAS and UTOC files.
+- Added mod managing support for Black Myth: Wukong.
+- Added "requirement" as an optional entry for modinfo.ini to define a mod as a requirement. Works similar to "addonFor" but without the menu changes.
+
+v3.035: (2024-09-01)
+- Fixed Ace Attorney Investigations demo entry as it wasn't using RE Engine after all, it's Unity!
+
+v3.034: (2024-08-31)
+- Added mod managing support for the following games:
+-- Tekken 8
+-- Snowbreak: Containment Zone
+-- Fight Angel Special Edition
+-- Ace Attorney Investigations demo
+- Fixed rendering of a small button on menu buttons during smooth scrolling
+
+v3.033: (2024-07-28)
+- Added mod managing support for full version of Kunitsu-Gami: Path of the Goddess.
+- Added mod managing support for Action Taimanin.
+- When selecting game, there's now a reminder to choose "Show or hide games" if user can't find a game.
+
+v3.032: (2024-07-04)
+- Fixed some menus that wouldn't trigger a sub-menu (like choosing game for "define game info").
+- Made the "choose game" menu wider so all game titles are fully visible.
+- Added mod managing support for Kunitsu-Gami: Path of the Goddess demo.
+- Added smooth scrolling to menus when dragging the scroll bar with the mouse.
+
+v3.031: (2024-06-29)
+- SF6: Fixed name used for Akuma category in modinfo.ini files.
+- SF6: Added M. Bison as character category. Add this to a mod's modinfo.ini to force the category:
+	category = !Characters > M. Bison
+- Updated the code that parses category tags to make the '.' optional. Ie, you can write M. Bison as M Bison instead.
+- Fixed a bug that could make it impossible to delete RE Engine PAK mods from the mod manager UI.
+- Code optimization that drastically speeds up the reading game archives operation if there are hundreds of thousands of files in the game directory.
+
+v3.030: (2024-06-09)
+- Added Akuma as category for Street Fighter 6. Add this to a mod's modinfo.ini to force the category:
+	category = !Characters > Akuma
+- Added a black background for the status messages.
+- Made the menu button tooltips animate into/out of view.
+- For menu buttons that represents a value within a certain range, it's now possible to set it to various values with a single mouse click.
+- Logo for currently selected game is no longer shown during minigames.
+- Wallpaper now never gets shown with wallpaper option set to off.
+
+v3.029: (2024-04-12)
+- Fixed download links to RE Framework.
+- Updated unrar.dll to v7.0.0.
+- Fixed mod managing support for the Game Pass versions of Resident Evil 2 Remake and Resident Evil 3 Remake.
+- Added extremely basic automatic search for Game Pass install path.
+
+v3.028: (2024-03-26)
+- Added Ed as category for Street Fighter 6. Add this to a mod's modinfo.ini to force the category:
+	category = !Characters > Ed
+
+v3.027: (2024-03-22)
+- Added mod managing support for Dragon's Dogma 2.
+- Added download link for RE Framework for Dragon's Dogma 2.
+
+v3.026:
+- Fixed text entry when selecting Apollo Justice in the "Define game info" menu.
+- Made it possible to install "re2_fw_config.txt" as part of a mod.
+- Added mod managing support for Dragon's Dogma 2 Character Creator, Tomb Raider I-III Remastered, and Dark Forces Remaster.
+
+v3.025: (2024-01-26)
+- Added mod managing support for Apollo Justice: Ace Attorney Trilogy.
+
+v3.024: (2024-01-17)
+- Fixed a bug in previous release that made the mod manager think the user was always using an RT build of RE2R and RE3R. This should be the last hotfix...
+
+v3.023: (2024-01-17)
+- Fixed a bug in previous release that made it impossible to install RE Framework mods to RE2R.
+
+v3.022: (2024-01-17)
+- Added mod managing support for RE2R on Game Pass.
+
+v3.021: (2023-12-06)
+- Added basic mod managing support for Ultimate Marvel vs. Capcom 3 and Monster Hunter World.
+- Made the minigames available via any selected game.
+
+v3.020: (2023-11-01)
+- RE4R: Fixed a bug that could cause some Luis, Krauser, and Ada mods to be put into the wrong category.
+
+v3.019: (2023-09-29)
+- RE4R: Fixed a bug that made the mod manager think Luis mods belonged to both Luis and Wesker categories.
+- RE4R: Added detection of the new Leon and Ada costumes for category assignemnt.
+- Fixed the "re-copy install" and "reverse install" options for when a game is running. This also fixes mod highlighting with "one-click installs" turned off.
+- Removed a warning message about a missing RE Framework download URL when selecting a game without an RE Framework build available.
+
+v3.018: (2023-09-27)
+- Updated unrar.dll with a new version that fixes a security issue.
+- SF6: Added A.K.I. character category (can be forced via modinfo.ini with "!Category = Characters > AKI").
+- Improved error message when failing to load a ZIP file.
+- Made the "Define game info" menu default to currently selected game.
+- Renamed "Resident Evil: Resistance" to "Resident Evil Resistance" (this should be the last time I rename it...)
+- Added a timeout to downloading a list of downloadable mods (this could have lead to the mod manager refusing to quit or the Downloads menu always being greyed out).
+
+v3.016: (2023-09-23)
+- Bug fix where the mod manager could fail to save the file with "custom game" information when quitting.
+- Renamed "RE: Resistance" to "Resident Evil: Resistance"
+
+v3.015: (2023-09-15)
+- Fixed a memory leak related to loading mod preview images.
+- Added mod managing support for Tekken 7.
+- Made it possible to open a Windows File Explorer instance that opens up the game install directory via the Options menu.
+- Made it possible to install mods for MT Framework games while the game is running.
+- Added popup message when user tries to install a mod while a game is running when it's not supported.
+- Made the mod manager skip PAK modification and allow mod installs while the game is running if FirstNatives is installed.
+- Added warning if user tries to drag'n'drop a mod with the same name as a mod that's already installed while the game is running.
+- Renamed Resident Evil HD to Resident Evil 1 HD so it has a more intuitive position in the game list.
+- There will now be a symbol highlighting the buttons for downloading Fluffy Mod Manager if a new version is available.
+- Added a simple warning message if the "natives" folder still exists after uninstalling all mods for an RE Engine game.
+- Added a warning message for when user starts another instance of Fluffy Mod Manager with mods still installed.
+- Merged the "install prompt" and "uninstall prompt" toggles into one.
+- Implemented a system called "mod presets" where the user can save a custom set of installed mods and then install that set in one go.
+- Game asset backups are now automatically deleted when they're no longer needed. This behaviour can be changed in Advanced Options.
+- Added a toggle in Advanced Options for turning off loading and displaying of mod preview screenshots.
+- Fixed a bug that made it impossible to manually choose the "!Other > Misc" category for a mod.
+- Made the "re-read game archives" button invisible for games that don't do archive entry invalidation.
+- SF6: Added "Stages" as category.
+- Made mod manager skip installing VR DLL files for RE Framework by default and added a toggle for it in Advanced Options.
+- Added direct downloads to RE Framework and FirstNatives in the Downloads menu.
+- SF6: The category system now checks directory names rather than filenames for identifying character categories.
+
+v3.014: (2023-07-30)
+- Added mod managing support for Arkanoid - Eternal Battle.
+- SF6: Added Rashid to the mod category list.
+
+v3.013: (2023-07-02)
+- Ghost Trick support added.
+- Final Fantasy 7 remake support added.
+- Basic Exoprimal support added.
+- Fixed a rare bug where the mod manager would delete an empty patch PAK for an RE Engine game when uninstalling all mods.
+
+v3.012: (2023-06-02)
+- SF6: Added automatic extension renaming of texture and mesh files from old SF6 beta mods.
+- Made automatic extension renaming for certain games compare any case rather than lower case-only.
+
+v3.011: (2023-06-01)
+- SF6: Fixed detection of meshes and textures for mod categorization.
+
+v3.010: (2023-06-01)
+- Added mod managing support for full version of Street Fighter 6.
+- SF6: Extended category list with full list of characters.
+
+v3.0098: (2023-05-28)
+- SF5: Fixed a bug preventing mods contained in 7Zip or zip containers from working.
+
+v3.0097: (2023-05-19)
+- SF6: Configured game entry to work with the open beta.
+
+v3.0096: (2023-05-03)
+- MHR: Added more robust detection of a Game Pass install of Monster Hunter Rise.
+- MHR: Fixed launching of the Game Pass version of the game.
+- Remove automatic additions of many tags to the "filter mods" menu for games with category support.
+
+v3.0095: (2023-05-01)
+- MHR: Fixed detection of Game Pass install after a recent patch.
+- Added optional functionality for updating RSZ CRCs within RE Engine game mod files. See Patreon post for more information: https://www.patreon.com/posts/82348277/
+- Fixed a bug in Updater.exe that could make it misread the mod manager's version number. If you have difficulty updating the mod manager, then try manually extracting modmanager.rar to current mod manager install and let it overwrite any files.
+
+v3.009: (2023-04-27)
+- Updated detection of non-RT RE2/3/7 builds so it works with the patches released today.
+- Fixed a bug where the mod manager could misread the version number and not be aware that a new version has been released.
+
+v3.007: (2023-04-26)
+- Mod manager will quit faster if it's recently been started (download of list of downloadable mods can now get cancelled midway).
+- User now gets a warning when trying to install a mod addon when the main mod isn't installed.
+- Added mod managing support for Street Fighter 6 demo.
+- Updated category system to ensure mod addons are in the same category as their main main (a similar thing will happen for NameAsBundle mods as well)
+- RE4R: Prevented the "NPC & Enemies" asset tag from being applied to playable character mods.
+
+v3.006: (2023-04-08)
+- Last of Us: Fixed invalidation of file entries in most psarc archives.
+- Made detection of pre-defined category references in the "category" modinfo.ini entry more lenient (! is now optional and -> is now a valid seperator).
+- Made it possible to manually assign categories to mods via Options -> Category assignment.
+
+v3.005: (2023-03-28)
+- Improved automatic detection of a Steam game's install path.
+- When manually selecting a game's install path the user can now choose between a folder selector and a file selector.
+- Added mod managing support for Last of Us Part 1 (works same way as for Uncharted).
+
+v3.004: (2023-03-24)
+- Added mod managing support for RE4R.
+- Added categories for RE4R.
+- Added variants to the "Support FluffyQuack" button.
+
+v3.003: (2023-03-19)
+- Fixed a bug where the mod manager would install a ZIP/7Zip mod incorrectly if it matched assets from an installed RAR/extracted mod. If anyone encountered this bug, I highly recommend uninstalling all mods, deleting the "natives" folder in the game's install location, and deleting the game's "Backup" folder in the mod manager.
+- Fixed check for 0-byte PAK files when installing mods.
+- Changed the "Skip PAK modification" toggle to exist for all games in the mod manager. Note: This used to only exist for MHR and the toggle will be set to its default off setting with this update, so change it if necessary.
+
+v3.002: (2023-03-10)
+- Added mod managing support for RE4R demo.
+
+v3.001: (2023-02-28)
+- Added mod managing support for RE7 demo.
+- Fixed a crash that occured when highlighting a mod, recreating the mod info cache, and then highlighting a mod again.
+- MHR: When verifying install path, accept the executable used for the Game Pass / Windows Store release.
+- You now select folder rather than executable when manually defining a game's install path.
+- MHR: "Launch Game" now works with the Game Pass / Windows Store release (note, it's never necessary to start the game this way, it's only for convenvience).
+- MHR: When installing mods non-PAK mods, the mod manager will automatically rename filepaths (STM -> MSG and tex.28 -> tex.143221028) to try to make them work wih the Game Pass / Windows Store release.
+
+v3.000: (2023-02-16)
+- Added 7Zip and ZIP support for mod packages.
+- Fixed a bug that could show a black line at the right side of a mod preview screenshot.
+- Fixed stutter when loading mod preview screenshots.
+- Fixed "Uninstall all mods" button not updating its state after un-\installing a mod while in a category's mod list.
+- Implemented support for invalidating archives when installing Uncharted 4 mods.
+- Added mod screenshot transition types to Options.
+
+v2.258: (2023-01-22)
+- Fixed a bug where mod manager would switch to category listing after installing/uninstalling a mod while in the "all mods" version of the mod list.
+- SF5: Fixed a bug where Luke and Kage mods would be placed in the wrong categories.
+- SF5/6: Re-sorted the character categories to alphabetical order.
+- RE2R: Added new categories and asset types.
+- RE3R: Minor changes to categories.
+
+v2.257: (2023-01-15)
+- Renamed Fluffy Manager 5000 to Fluffy Mod Manager.
+- Changed the default black colour background to a dark gray.
+- Fixed a bug where the "master mod" would not be the first entry in a sub-menu of a mod and its addons.
+- Added a category view that's now the default mod list view (for supported games). This can be turned off in Options.
+- Added automatic category assignment (work-in-progress) for RE2 remake, RE3 remake, RE5, RE6, SF5, SF6, and DMC5.
+- Added text to mod highlight description with information for what assets the mod replaced (work-in-progress, and only for the above mentioned games).
+- Highlight currently selected game in "choose game" menu with a white border.
+
+v2.256: (2022-10-24)
+- Prepared support for Street Fighter 6 and Resident Evil 4 remake by adding dummy entries for them in the mod manager.
+- Added basic mod managing support for Uncharted 4.
+- Updated information for Re:Verse so mod managing works with final release.
+
+v2.255: (2022-10-04)
+- Fixed a crash that could happen when a mod had a blank name entry in its modinfo.ini file.
+
+v2.254: (2022-09-29)
+- Fixed a bug that made "CheckIfModManagerIsRunning" config var use the same variable as "CheckIfGameIsRunningForModInstalls" in the mod manager code.
+- Added a toggle to Advanced Options that makes it possible to disable modification of PAK files when installing mods for Monster Hunter: Rise. This is meant to be used alongside FirstNatives. This is stored in config.cfg as the line "SkipPAKModification_MHR".
+- Added an option to Advanced Options that deletes the mod info cache and re-creates it from scratch.
+- MHR: Replaced the integrity check after encrypting/decrypting PAKs that didn't work correctly with official patch PAKs.
+- Fixed an entry that was erroneously added to log.txt that indicated a game's install path was invalid even though it was used just fine.
+
+v2.253: (2022-06-24)
+- By adding "CheckIfModManagerIsRunning: 0" to config.cfg it's now possible to make the mod manager skip the check to see if it's already running and auto-quit.
+- Improved the check if another Fluffy Manager process is running when it's booting up. Now the check compares window title in addition to process executable.
+- Fixed a bug where the mod manager refused to install a mod because it failed to ignore an empty PAK file contained with the mod.
+- Fixed a bug where bundles with no installed mods would be listed when using the "installed only" filter.
+- Added a feature that automatically converts TEX and MSG files to the new formats for old RE2, RE3, and RE7 mods.
+- Made the mod manager detect game version and mod version, so it can give a warning if user tries to install a mod that's not compatible (this check does not work for RE3 mods that only modify pfb, scn, or pck formats).
+- Moved the "Show/hide games" option to the top of the "choose game" menu.
+- Fixed a bug where the prompt for installing/uninstalling mods wouldn't show the mod name correctly if there was a '%' symbol in the name.
+
+v2.252: (2022-03-31)
+- MHR: Added support for decrypting PAK files when installing mods (PAK is is re-encrypted when all mods are uninstalled).
+- Fixed a bug that prevented the mod list from being navigable with keyboard letters after selecting "Refresh mod list."
+- Added support for installing RE Engine mods packaged as PAK files.
+- Added support for King of Fighters XV (this is an Unreal Engine 4 game that requires SIG files for mods. This is handled automatically by the mod manager)
+- Clicking on the text field for a custom search while inputting text will no longer cancel a custom search.
+- Fixed a bug where a mod could get prompted to be installed/uninstalled if user cancelled a custom menu search by pressing "return" with an empty text field.
+- Added support for Need for Speed: Hot Pursuit Remastered.
+- Implemented a trainer for NFS: Hot Pursuit Remastered letting the user customize the hood camera position (allows for cockpit view).
+- If there are multiple modinfo.ini in a RAR, the mod manager will now "lock onto" the one(s) that's closest to the root in the RAR archive.
+- Fixed a bug that would slow down the install process of mods in RAR archives that had a modinfo.ini in a location that wasn't the root.
+
+v2.251:
+- RE8: Fixed the "automatically change to first person during cutscenes" toggle for the third person trainer mod.
+- Added support for full version of Monster Hunter Rise.
+- Added support for Ghosts'n Goblins Resurrection.
+
+v2.250:
+- RE8: Updated third person trainer mod to work with the latest RE8 patch.
+
+v2.249:
+- Added support for the Monster Hunter Rise demo.
+- Fixed order of games in "Define game info" menu.
+- Added a toggle in the "advanced options" menu for allowing the installing and uninstalling of mods while the game is running (users shouldn't mess with this unless they know what they're doing as this will result in errors with most games).
+- Fixed alphabetical sorting for mods which were listed as their "NameAsBundle" name.
+- Fixed alphabetical sorting in "Downloads" menu.
+- Added alphabetical sorting to the "choose game" menu.
+- Fixed the appearance of Fluffy Manager entries showing up in the filter selection for "Downloads" menu.
+- Fixed a bug where you had to double-click "Filter mods" to get back into the filter selection menu when a filter was already selected.
+- Fixed a bug that sometimes made Fluffy Manager save the log.txt file in the wrong location.
+- Made it possible to navigate the mod list by pressing characters on the keyboard to jump to mods starting with that character.
+- Added a toggle for turning on left-handed mode in "Advanced options" menu that swaps the functionality of the left and right mouse buttons.
+- Fixed a bug that prevented some values from being saved to the config file.
+- Made right-click and backspace correctly back out of specific sub-menus.
+- Fixed a bug that prevented a new version of Fluffy Manager from being downloaded if certain games were selected (ie, SC6 or Bloodstained).
+
+v2.248 (2021-08-19):
+- Fixed a bug that showed the wrong menu whenever mod addons or bundled mods were installed or uninstalled.
+- Fixed a bug that hid the "uninstall all mods" button when in the menu for bundled mods.
+- Fixed a very rare crash that could occur when clicking into the window while it was out of focus.
+
+v2.247 (2021-08-14):
+- Added a feature for doing text search through mod titles (Mod Filter -> Custom Search).
+- Renamed "Category Filter" option to "Mod Filter".
+- RE8: Added the option to manually adjust the camera offsets for the third person trainer mod (I suggest holding shift while clicking the menu buttons for the offsets so you can type in a number).
+- Added an error message that is shown if data\data.pkg fails to load.
+- Added a warning message if the mod manager is run from WinRAR without being extracted first.
+- Made it possible for mods to be categorized as addons for mod addons.
+- Added support for "NameAsBundle" entry in modinfo.ini. If this exists, this will be used as the mod's name in the mod list if addons for it exists.
+- Fixed a bug that could make Fluffy Manager take a bit more CPU time than it was supposed to.
+- RE8: Updated the third person mod to work with the latest RE8 patch (2021/08/10).
+- If you add "DisableBlur: 1" to the config file, then the blur effect won't be used anymore in the mod manager (might be useful for troubleshooting).
+- Made it possible to uninstall installed mods when path to the game isn't known (this doesn't delete the installed mod files, however).
+- You can now bundle mods as one button in the mod list if each mod contains the same "NameAsBundle" entry in the modinfo.ini file.
+- Minor fixes.
+
+v2.246: (2021-05-28)
+- RE8: Added third person trainer feature. Requires "Third Person Assets" mod to work properly.
+- RE8: Added support for "Custom FOV" file mod to work properly.
+- Fixed height of mod description window when description text has "\n" line breaks in it.
+
+v2.245: (2021-05-05)
+- Fixed a bug which made mod manager version check think a WIP version is newer than a non-WIP version.
+- Fixed a bug which made "Jukebox" button appear for games it doesn't work with.
+- Added config var for "One-Click Mod Installs" so its setting is saved between sessions.
+- Fixed a bug which prevented "Force Uninstall" toggle from appearing when a mod uninstall failed.
+- Added support for Cyberpunk 2077.
+- Added support for RE8 demo.
+- Added support for RE8.
+- Added trainer for RE8: FOV override, vignette toggle, and HUD toggle.
+
+v2.244: (2021-04-08)
+- Fixed loading of certain JPG mod preview screenshots in the "Downloads" menu.
+- Removed the 1gb filesize limit when installing mods.
+- Added support for Re:Verse open beta.
+
+v2.243: (2021-01-03)
+- Added a message about quantity of files failing to copy if a mod failed to install.
+- Added a new toggle to "Advanced options" which makes it possible to re-copy the files for an installed mod while the game is running. This is useful for mod development of RE Engine mods where you can copy over updated versions of modded files without having to restart the game.
+- Added another toggle to "Advanced options" which lets you do a "reverse install" of an installed mod. This copies the files for the mod from the game directory to the mod directory. This is for mod development. This toggle can't be on at the same time as the above toggle.
+- Added more detailed entries to Data\log.txt related for mod installs and uninstalls.
+
+v2.242: (2020-12-18)
+- Rewrote some code related to the creation of the "Downloads" menu which makes it much faster to load if you have many downloaded mods.
+- Made the ETA and download speed numbers update at intervals so they jump around less.
+
+v2.241: (2020-12-18)
+- Fixed a bug introduced in previous version which prevented DMC5 mods from installing correctly.
+
+v2.240: (2020-12-17)
+- Re-organized the options menu by adding an "advanced options" menu which includes the more technical or unusual settings.
+- Added toggles to the advanced options menu which adds prompts for mod installs and uninstalls.
+- Added code for outputting error messages for when Curl (library used for version checking and downloads) fails. These error messages are logged to Data\Log.txt
+- Re-compiled Curl to allow for downloading from secure websites. Since that's supported now I've changed all addresses to my website to use HTTPS. It's possible only this and newer versions of the Mod Manager will be able to use download functionality, so it's highly recommended all users upgrade to this.
+- Added basic functionality for verifying file integrity of downloaded files.
+- Improved behaviour when Fluffy Manager window is resized while the mod list is open. However, this is very much a work-in-progress and I'll continue to improve this behaviour so every part of the UI resizes appropriately as you resize the window.
+
+v2.230: (2020-11-23)
+- Optimized GPU usage. If nothing is being animated (or if the program is out of focus) then GPU usage becomes 0%.
+- Added support for Battlefleet Gothic: Armada 2.
+- SC6: Updated trainer to work with latest version (works as of 2020-10-17).
+- SC6: Updated trainer to show more music track options.
+- SC6: Trainer will disable controller ID menu options if address for it doesn't work (ie, for when a new SC6 version is released).
+- Save manager: Added support for more games. RE1 HD, RE0, RE4, RE5, RE6, Revelations 1, and Revelations 2.
+- Save manager: Did a lot of miscellaneous changes. Added toggle for displaying date of save files, added buttons for opening save locations in Windows File Explorer, added prompts when performing any action resulting in overwriting a save file, and change the menu layout for the save manager.
+- The "Define game path" button now only appears if the mod manager lacks the install path for the currently selected game.
+- The mod manager now allows replacement of the game executable. Note that the mod manager can't check if a game is patched while the game executable is replaced, so keep this in mind (you might need to reinstall the game if the game gets patched while you have it modded like this).
+- Fixed a rare bug which could lead to the mod manager failing to copy over a file from a second mod when uninstalling a mod which modded the same files as another installed mod.
+- Fixed a bug which prevented the "Uninstall all mods" button from updating its state when browsing the addon menu for a mod.
+- When clicking on "Uninstall all mods" while browsing the addon menu for a mod you will no longer get reset to the full mod list.
+- Improved handling of starting Fluffy Manager 5000 when an instance of it is already running.
+- Added a better notification for when mod downloads finish.
+- Improved error handling for failed loading of PKG archives.
+- Fixed a bug with Windows 10 version 2004 where quitting the mod manager while it's on a second monitor will make it freeze when restarting the mod manager.
+- Added support for the game Ghostrunner.
+- Fixed drag'n'drop feature which broke when fixing a bug related to Windows 10 v2004.
+- Fixed a bug which could potentially show info about a downloadable mod while in a puzzle minigame.
+- Releases of Fluffy Manager no longer includes assets for wallpapers and minigames, and these are now optional downloads via the Fluffy Manager. This makes the initial download much smaller.
+- There's now a system in place for automating the downloading and updating of new versions of Fluffy Manager.
+- Log.txt will now be created in "Data" directory in order to make the root directory for Fluffy Manager less messy. Feel free to delete log.txt if it already exists.
+- Added a new entry to the help prompt for the save manager when Dragon's Dogma is selecting warning about how pawn hires will get rewards reset to 0 for a set amount of time after swapping savegame.
+- Fixed an issue where Fluffy Manager would get confused by its focus status if the user changed to another program while Fluffy Manager was initializing (this meant it could be receiving input when it shouldn't).
+- Fixed a bug which could make Fluffy Manager think an old version was up-to-date when doing online version checking.
+- Clicking on "Refresh mod list" will no longer reset the currently selected category filter.
+- Rewrote the framerate limiter as it didn't work very well on newer versions of Windows (this should result in the mod manager feeling a bit more responsive).
+
+v2.220: (2020-05-09)
+- Fixed a bug which sometimes prevented the mod author categories from working when browsing downloadable mods.
+- Made more games hidden by default (only applies to new users of the mod manager). You can always click "Show / hide games" to customize which games are shown and hidden.
+- Fixed a bug which prevented the help icon from appearing.
+- Added a lot more help information which can be accessed via pressing the help icon or pressing F1.
+- Fixed a bug which could prevent mods in RAR files without a modinfo.ini from appearing in the mod list.
+- Added support for multiple mods to be contained in one RAR file (for this to work, you'll need to add multiple subfolders and make sure each one has a modinfo.ini).
+- The above feature required a rewrite of a lot of code handling mods in RAR archives. One side effect is that the mod manager will have to re-create the cache for many RAR archives, which could result in a brief delay. If you have mods installed, a few of them might end up getting shown twice in the list (that's fixed by uninstalling and reinstaling the mods).
+- The mod manager will now automatically re-read game archives if a game patch is detected while no mods are installed.
+- Fixed a bug where if you only had mods with addons in the mod list the mod manager would display the message "no mods found."
+- Fixed a bug where the wrong menu button would be pressed after showing a list of mod addons and clicking left mouse button without moving the mouse.
+- Added a button to the mod downloader to a site where you can post feedback on the mods downloadable via the mod manager.
+- Redid the interface for showing mod downloads in progress.
+- Added support for Code Vein.
+- Added support for Trials of Mana.
+
+v2.211:
+- RE Resistance: Launch game button now tries to launch the full game, rather than the open beta.
+- When certain features are unavailable for the selected game (jukebox, trainer, puzzle, or save manager) the button for it will disappear rather than appear grayed out.
+- When installing mods, the "invalidated paths" text now says "modified paths."
+- Fixed a bug which could result in a mod download failing (happened if a mod with same filename exists and its screenshot was recently loaded).
+- The mod manager now refuses to install/uninstall mods for any game if the game is currently running. Add "CheckIfGameIsRunningForModInstalls: 0" to config.ini to override this behaviour.
+- SC6: Updated trainer to work with latest patch (works as of 2020/04/16).
+
+v2.210: (2020-04-03)
+- Added support for Resident Evil 3 and RE: Resistance.
+
+v2.206:
+- Added support for RE: Resistance Open Beta. I'll add support for the full game when it's released (this version should also work for the full game if you manually select install path).
+- Added a menu button in options for opening the mods folder in Windows.
+
+v2.205:
+- RE3 demo: Fixed download link for the RE modding forum.
+- Added warning that this version may not correctly support full version of RE3.
+
+v2.201:
+- SF5: Added a new link to a mod download site (Street Fighter modders dA group).
+- Fixed a few minor memory leaks.
+- Decreased memory footprint (by up to 20mb).
+- Minor UI improvements.
+- Added prompts for opening URLs.
+- If "homepage=www.website.com" exists in a modinfo.ini then there will be a button for visiting that link on a mod preview.
+- If "addonfor=modname" exists in a modinfo.ini, that mod will be hidden by default but the mod with the name "modname" will have a plus icon which will show mods with the tag.
+- The mod downloader now shows preview information about mods.
+- Currently selected category filter is now shown at the top of the mod list after choosing a category.
+- You can now choose mod author name as category filter.
+- Category filter is now an option for the mod downloader menu.
+- Added minigame puzzle for Resident Evil 0.
+- Fixed a bug letting you exit menus while downloading a mod by pressing Escape.
+- Added support for RE2 demo.
+- Added a "Manage game visibility" menu button when switching between games, letting you easily hide any game you want from that list.
+- Added support for RE3 demo.
+
+v2.200: (2020-01-23)
+- SC6: Updated the trainer to support "AI difficulty change" and changing of controller IDs with v2.00 of the game (also works with v2.02, and hopefully future versions).
+- SC6: Updated the music part of the trainer to include SC4, Broken Destiny, and SC5 soundtracks.
+- Improved display of warning when a game is patched while mods are installed.
+- RE2: Updated trainer to work with the latest patch.
+- Made mod installs using RE Engine games to correctly check against both hashes of each file entry in PAK files. Earlier versions only compared against one hash which prevented 2 files from being modable in DMC5.
+- Added "Download Mods" button with some direct mod downloads and some links to popular mod sites. (Since mods can be directly downloaded via the mod manager, I've removed the mods which were bundled with the mod manager.)
+- Added Resident Evil 3 support in the mod manager! (but it doesn't actually support RE3 yet)
+
+v2.115: (2019-11-24)
+- Made the "Trainer" GUI button lead directly to the "Trainer functions" menu if the trainer has managed to hook into the game.
+- Mod manager will no longer display mod conflicts when hovering over an installed mod (might remove some stutter when browsing the mod list).
+- Mod manager will skip displaying mod conflicts when hovering over an uninstalled mod with an enormous amount of files (this removes a long stutter which would have happened when browsing the mod list with mods like that).
+- RE6: Fixed missing text in a few trainer options.
+- RE6: "Player stats" and "Lobby info" trainer menus have been combined into one called "Player info."
+- Added option to align menu button text in mod list to "left" or "middle."
+- Fixed alignment of the "checkmark" icon in the mod category management menus.
+- Mod categories in the "Tag filter" menu are now sorted alphabetically.
+- Added "Installed" category to the "Tag filter" menu.
+- "Tag filter" menu now shows quantity of mods currently using each category tag.
+- Clicking "Mod list" now always resets category tag selection to default (which is "all").
+- Screenshot feature. Press F12 key to take a screenshot which will be saved as a PNG file in the "Screenshots" directory.
+- SC6: Added a trainer. Lets you change stage music and AI difficulty.
+- Fixed a minor issue where a "previous menu" menu button wouldn't work as intended if you opened the trainer menu while in the mod list menu.
+- Cleaned up the "Trainer options" menu.
+- SC6: Added a wallpaper for the game.
+- SC6: Added a feature to the trainer letting you force 1P and 2P to always be human-controlled.
+- SC6: Added a feature to the trainer letting you remove the inherent 1-frame input lag found in all offline modes. This was discovered thanks to WAZAAAAA and there's more information here: https://8wayrun.com/threads/mod-to-reduce-offline-input-lag-on-pc-by-1-frame.20979/
+- When selecting game, the mod manager will now display quantity of installed mods for each game in parenthesis.
+
+v2.114: (2019-09-18)
+- Fixed issue preventing the modinfo.ini from a mod in a folder from getting re-read when refreshing mod list.
+- Fixed a rare issue where the mod manager would show a mod twice in the mod list under very specific circumstances (related to replacing an installed mod with a new version in the mod directory and then uninstalling the old version).
+- The mod list now shows a message about no mods found when showing the mod list for a game with no mods.
+- Mod manager now defaults to showing the mod list menu whenever you change game.
+- The mod manager will now select the correct menu option if the user installs a large mod, moves mouse to another menu option while it installs, and then clicks without moving the mouse after mod is installed.
+
+v2.113: (2019-08-28)
+- The mod manager will now accept to install files from a mod's "root" directory. It will copy any file EXCEPT for the following:
+-- Game executable
+-- modinfo.ini
+-- *.txt
+-- *.rtf
+-- *.jpg
+-- *.jpeg
+-- *.psd
+-- *.png
+-- *.tga
+-- *.bmp
+-- *.gif
+-- *.url
+- Fixed a bug which would sometimes lead to mod installs failing due to game archives not being read even when a game was selected without needing game archives read.
+
+v2.112: (2019-08-11)
+- Added a warning if the mod manager loads a modinfo.ini in unicode format (this is not supported, and those should always be saved as ANSI).
+- Fixed a bug which sometimes meant you had to press the delete button twice in order to delete a mod.
+
+v2.111: (2019-08-09)
+- Fixed the appearance of some trainer menus.
+- REHD: Updated the door skip trainer to be compatible with latest release of REHD.
+- RE0: Updated the door skip trainer to be compatible with latest release of RE0.
+
+v2.110: (2019-07-22)
+- Scroll bar button now has a different size depending on the quantity of menu buttons.
+- There is now a prompt asking if you want to overwrite or not when dragging'n'dropping a mod which already exists in the mod manager.
+- There is now a recycle bin icon next to mods letting you delete them from the mod manager (only works with mods stored as RAR or PAK).
+
+v2.101: (2019-07-10)
+- UE4: Fixed a bug which prevented mod previews stored in UE4 PAK files to render correctly if they have a width ending in an odd digit.
+
+v2.100: (2019-07-06)
+- Overhauled the UI (thanks to fatihG_ for the help). Some notes about the new UI:
+-- You can click on the mod preview screenshots to make it display fullscreen.
+-- The "main menu" is now a series of always-visible buttons to the right.
+-- The mod manager now defaults to showing the mod list when starting.
+- Made it possible to drag'n'drop mod RAR files directly onto the Mod Manager window which makes it move the RAR file into the corresponding directory for currently selected game.
+- For UE4 games (ie, Bloodstained and SoulCalibur 6), you can drag'n'drop a PAK file onto the Mod Manager window.
+- When creating UE4 pak files, you can store a modinfo.ini and screenshot.jpg at the root directory to make the Mod Manager load them.
+- Fixed a bug which prevented more than 1000 mods from being visible in the mod list.
+- Made the popup messages last a few more seconds.
+- If a new version of the Mod Manager is detected, then the mod manager shows the version of the newest version.
+- Optimized the code for mod conflicts when highlighting mods.
+- Added Resident Evil 7, Bloodstained: Ritual of the Night, and SoulCalibur 6 as supported games.
+
+v2.000: (2019-06-06)
+- Added caching system for mods which makes mod manager much faster to start up when there are a large amount of mods (first time running the mod manager without cache may make it stall for a few seconds as it creates the cache).
+- Added scroll bar for menus.
+- Added filter system for mod category tags. Each mod can have up to 10 category tags. This is defined via multiple "category=[text]" in modinfo.ini for each mod), but can be temporarily changed in the mod manager itself via the "manage mod lists" menu.
+- Mod manager now checks if a new version exists online whenever it boots up (this functionality can be disabled in options). If it finds a new version, then a menu option gets added for making the default Windows browser start downloading the latest version.
+- Mod manager now does a basic check if the currently selected game has been patched. If that happens, the mod manager will display a message about recommended steps if a conflict could have happened with the patch and mod installs.
+- Added a toggle to options to change how the mod list is presented. Alternate style gives the mod list static size to all buttons (but they'll resize to show all text when highlighted).
+- Mod manager will now show a warning if you're highlighting a mod with conflicting files as a currently installed mod.
+- Increased the maximum amount of mods possible to be listed in one menu (from 1k to 20k).
+- Changed how mod descriptions are displayed when highlighting mods.
+- Moved network functions to the options menu.
+- RE2: Changed sample mod from "Alternate Rebecca Photo" to "PS4 Controller Button Prompts"
+- SF5: Mod manager now scans "AppData\Local\StreetFighterV\Saved\download\Replacement" for PAK files.
+
+v1.800: (2019-05-02)
+- RE2: Updated trainer to work with latest English and Japanese executables.
+
+v1.799: (2019-04-06)
+- RE6: Fixed a bug which lead to certain trainer functions using the wrong address.
+
+v1.798: (2019-03-31)
+- DMC4SE: Updated trainer to support latest game version.
+- Fixed a bug which prevented some old trainers to correctly read pointers from the game's memory.
+
+v1.797:
+- Added a "launch game" button to the topright part of the UI.
+
+v1.796:
+- Fixed a crash when booting up the Mod Manager which seemed to only happen with a very specific Windows 10 build.
+- Maximizing window now displays title bar by default.
+- If sound initialization fails, sound functions are ignored rather than quitting the program.
+- Improved error handling during bootup process of Mod Manager.
+
+v1.795:
+- RE2R: Trainer now supports the Japanese 2019-02-20 patch.
+- Mod manager will now try to reset its position during startup if previous saved location is outside the current desktop size.
+- Added support for installing/uninstalling mods for Devil May Cry 5.
+- Fixed a bug related to loading in Data\gameinfo.bin (list of custom game support).
+
+v1.794:
+- Fixed rare crash if installed.ini has a size of 0 when installing a mod.
+- Fixed handling of mods with the characters "[]" in their path.
+
+v1.793:
+- RE2: Updated trainer to work with latest international build.
+- RE2/SFV: Fixed a bug which prevented mod manager from finding PAK files in install directory if more than 20 thousand files existed in same location.
+
+v1.792:
+- Fixed a rare bug where installing a mod contained in very specific version of RAR archives would result in some files getting skipped (and instead a directory with the file's filename would get created).
+
+v1.791:
+- RE2/SF5: Invalid PAK files are now fully ignored during "re-read game archives" rather than cancelling the action.
+- Fixed a crash when a very high amount of RAR mods exist in the mod directory.
+- Fixed a bug which prevented RAR mods from getting added to the mod list after installing a mod, uninstalling it, and then clicking "refresh mod list".
+
+v1.790 (WIP):
+- Fixed a possible crash when loading a preview image with very long file name.
+- RE2R: Trainer now supports the English 2019-02-15 patch.
+- Some other minor changes.
+
+v1.789 (WIP):
+- Fixed a possible crash when copying a file failed.
+- Fixed a possible crash when installing a non-RE2/SF5 mod.
+
+v1.788 (WIP):
+- RE2R: Fixed the triggering of an error message when clicking "uninstall all mods" when multiple mods modified the same file(s).
+- Menus now fade to grey to indicate they can't be clicked on when installing large mods.
+- Changed handling of the backup directory for a game. It's now never created unless file backups are needed.
+- Fixed a bug related to manually defining a game's install path after mod manager failed to find it automatically.
+
+v1.787 (WIP):
+- Resident Evil 2 remake added as supported game.
+- Mod manager now refuses to install/uninstall mods if RE2 or SF5 is running.
+- If mod manager fails to automatically find install path for game, it will add a GUI button letting user manually define it.
+- Fixed a bug which slowed down mod installs/uninstalls.
+- Fixed a rare, minor bug which could cause a mod to still get partially uninstalled during a failed uninstall.
+- Fixed issue which would lead to mod manager trying to invalidate the same PAK file entry multiple times if multiple mods modifying the same file are installed.
+- Improved behaviour for forcing mod uninstalls after re-invalidating PAK file entries fail.
+- Improved behaviour for when invalidating/revalidating PAK entries fail.
+- Mod manager will now skip files matching the filenames of PAK files during mod installs.
+- Mod manager will now default to menu not active when after startup.
+- Optimized parts of the mod install/uninstall code.
+- RE2R: Added wallpapers.
+- Increased default resolution.
+- Fixed a small memory leak whenever a mod failed to install or uninstall.
+- Status messages in mod manager now last 3 times longer.
+- Mod manager now refuses to install mods if game archives are not scanned for RE2 or SF5.
+- Fixed a bug which prevented faster installs of mods contained in RAR containers.
+- RE2R: Added trainer function to teleport to pre-defined locations.
+
+v1.781: (2018-03-03)
+- REHD trainer: Fixed a bug with modifying item counts in inventory.
+
+v1.78: (2018-01-18)
+- Mod manager will now detect mods stored as RAR archives in the "mods" directory for any game.
+
+v1.773: (2017-12-08)
+- DMC4SE: Trainer now works with Japanese executable.
+- Mod manager will now try to automatically find install path for Steam games if they're not installed in non-default location.
+
+v1.772: (2017-09-23)
+- Fixed support for custom backgrounds.
+
+v1.771: (2016-11-28)
+- UE4: Fixed a bug related to PAK files larger than 4gb.
+- UE4: Mod manager will now scan entire install directory for PAK files rather than just "Content/Paks"
+- Fixed bug with "Launch game" sometimes not launching the correct game.
+
+v1.770: (2016-11-13)
+- RE6: Fixed "force pause" shortcut on keyboard (press HOME to activate it).
+
+v1.769: (2016-07-20)
+- SFV: Added support for the new "DLC manifest" PAK files.
+
+v1.768: (2016-07-15)
+- UE4: Files no longer have to be case sensitive.
+- UE4: Improved error handling for when mod manager fails to gain read/write access to PAK files.
+- Made popup messages when installing and uninstalling mods concise (they're still verbose in log.txt file).
+
+v1.767: (2016-07-01)
+- Added a toggle for Unreal Engine 4 when setting up support for custom games (which means mods will be installed same way as for Street Fighter 5).
+- Improved support for Unreal Engine 4 titles by updating the entry list hash in PAK files (some games quit during startup if hash is wrong).
+- If the data doesn't already exist, mod manager will now automatically try to generate information about game archives for an UE4 title when entering the mod list. This may result in the mod manager pausing for a few seconds the first time you enter the mod list for an UE4 title.
+
+v1.766: (2016-04-25)
+- RE5: Added Gold Edition music to jukebox.
+- Added the possibility to load mods via PKG files.
+
+v1.765: (2016-04-17)
+- Fixed a crash when installing mods with really long file paths.
+- When first running the mod manager, the user is prompted to select a game.
+- Changed some terminology in menus.
+
+v1.763: (2016-03-29)
+- SF5: Fixed crash when handling game archives larger than 2gb.
+
+v1.762: (2016-03-23)
+- "Uninstall all mods" menu option is always added, but greyed out if no mods are installed.
+- SF5: Replaced wallpaper.
+
+v1.76: (2016-02-21)
+- Added support for Street Fighter V. Since the game has small amount of really large file archives with no repack support yet, the mod manager installs mods differently for SFV. It'll invalidate filepaths within those archives to get the game to load modded files outside the archives. You'll need to click on "Read game archives" once before starting to install any mods.
+- Mod manager will no longer automatically re-create any missing mod directories within "Games".
+- When uninstalling mods, the mod manager will now try to remove empty directories it just deleted modded files from.
+- In the "Define game info" menu you can choose to hide specific games so they don't show up in the "choose game" selection anymore.
+
+v1.753: (2016-02-09)
+- RE0: Merged "door skip" and "no door sounds" trainer functions.
+- RE0: Added trainer function for overriding costume selection.
+- Fixed a bug with frame limiter when out of focus.
+
+v1.752: (2016-01-20)
+- RE0: Added first version of door skip trainer function.
+
+v1.751: (2016-01-19)
+- Added Resident Evil 0 HD as supported game.
+
+v1.75: (2016-01-15)
+- Added Dragon's Dogma: Dark Arisen as supported game.
+- Added save manager which is compatible with Dragon's Dogma.
+- Changed how wallpaper mode works.
+- Various bug fixes and tweaks.
+
+v1.741: (2015-10-16)
+- Fixed a bug with admin rights check.
+- RE6: Added "random" option to voice command mapping.
+
+v1.74: (2015-09-05)
+- Mod manager now checks file date when backing up files, to better support games which gets patched. You still need to make sure no mods are installed before a patch is downloaded however.
+- Default mod directories are now in the "games" directory which makes things tidier with so many games supported. Old directory structure is still supported.
+- You can now add mod managing support for any game. In options, there's a menu called "Define Game Info" which lets you create information for up to 10 additional games. This is also where you manually change install paths now.
+- DMC4SE: Made the initial music change with the music randomizor happen as early as possible rather than waiting for the first interval.
+- RE6: Fixed typo with voiceMapping.bin file.
+- Fixed mod screenshot highlighting sometimes appearing in wrong menus.
+- Fixed invalid game selected with missing "default_game" config variable.
+
+v1.73: (2015-08-18)
+- Added support for progressive jpegs as mod screenshots.
+- RE5: Added trainer function for replacing crosshair with normal laser pointer.
+- RE5: Mod manager will now rename paths when installing normal GFWL RE5 mods to Steamworks RE5, and vice versa, to make them more compatible. Mod manager detects if RE5 is Steamworks version by checking if RE5DX10.exe is NOT in the directory. If that file is in your RE5 Steamworks directory, delete it. Some mods will still be incompatible even after path renaming.
+- Improved UI behaviour when resizing or minimizing window.
+
+v1.72: (2015-06-28)
+- Added DMC4 SE to mod manager and trainer.
+- DMC4SE: Music randomizor which periodcally replaces combat music with other tracks.
+- DMC4SE: Advanced button remapper letting you map any action to any number of buttons.
+
+v1.71: (2015-06-08)
+- RE6: Fixed "Lobby info" in trainer functions.
+- RE5: Fixed RE6 trainer menu appearing when in network mode.
+- REV2: Trainer now supports version 4.1 of the game.
+- It's now possible to refresh list of mods in the mod list menus.
+- Added wallpaper mode toggle in options.
+- Some other minor fixes.
+
+v1.702: (2015-05-17)
+- RE5: Trainer automatically disables xlive code protection, which means...
+- RE5: Coop door fix is back in.
+- REV2: Removed local coop function (redudant since game has official local coop support).
+
+v1.701: (2015-05-15)
+- RE5: Removed coop door fix as it conflicted with GFWL code protection in the supposedly GFWL-less Steamworks version of RE5. *glares*
+
+v1.70: (2015-05-15)
+- RE5: Trainer now supports latest version of the game (Patch #1).
+- RE5: Changing character will automatically activate a code snippet making coop doors work with any character combination.
+- REV2: Trainer now supports version 3.2 of the game.
+
+v1.69: (2015-04-04)
+- REV2: Trainer now supports version 3.0 of the game.
+- RE5: Added basic trainer (only for RE5 Steamworks) letting you change character (note that this can cause a crash in certain modes due to missing files)
+
+v1.682: (2015-04-01)
+- RE5: Made mod managing work for new Steamworks version of RE5.
+- Pretend there's a clever april fool's joke here.
+
+v1.681: (2015-03-11)
+- REV2: Updated trainer to support latest game version (1.0.3).
+- REV2: Coop funtions are still there but will be removed in a future update since the game now officially supports local coop.
+
+v1.68: (2015-03-08)
+- REV2: Updated trainer to support latest game version (1.0.1).
+- REV2: Added "strawberry jam removal" to trainer.
+
+v1.671: (2015-02-27)
+- If there's no existing config file, Revelations 2 is set as default game.
+- Menu is turned on by default.
+- Network functions are hidden unless RE6 is selected as game.
+
+v1.67: (2015-02-27)
+- Mod managing support added for Revelations 2.
+- REV2: Added trainer function to enable local splitscreen coop (doesn't work with keyboard controls).
+- RE6: Add "voiceMappingGamepadOnly: 1" to config if you want voice mapping to not affect keyboard controls (thanks and praise is still affected regardless).
+
+v1.66: (2015-02-22)
+- RE6: Fixed remapping of voice commands when using keyboard controls.
+- RE6: Added support for saving and loading voice command mapping to file (if saved, this mapping will automatically be loaded whenever you start trainer).
+
+v1.651: (2015-02-18)
+- RE6: Fixed a minor bug with anti-cheat.
+
+v1.65: (2015-02-17)
+- RE6: Added trainer function to change voice command mapping.
+- If there's no valid path to the selected game, it'll now try to get path automatically via steamPath in Windows registry.
+- Added tooltips to many menus.
+
+v1.64: (2015-01-28)
+- RE HD: Fixed ladder path not unlocking when using door skip.
+- RE HD: Change character whenever (this is not suspposed to be possible, so it can lead to some really weird game behaviour)
+- RE HD: Edit unlockables (this lets you freely turn off "One Dangerous Zombies" if you want to).
+- RE HD: Variant of door skip (plays sound but shows door briefly on screen).
+- Minor bug fixes.
+
+v1-631: (2015-01-23)
+- Improved door skip poke.
+
+v1-63: (2015-01-22)
+- Mod manager support for Devil May Cry 4 and Resident Evil HD Remaster.
+- Trainer support for Resident Evil HD Remaster (door skip, infinite ammo, anti cheat, inventory editor, costume select)
+- Fixed window resolution being off with a few pixels on certain Windows themes.
+- Added option to change window size to a small selection of defaults.
+- Misc changes and improvements.
+
+v1-62: (2014-09-10)
+- Fixed a bug where mod manager didn't properly handle game directory paths ending with a space character.
+- Fixed a bug where GUI elements would be misplaced after minimizing the program.
+
+v1-61: (2014-09-05)
+- Fixed a timing error which should slightly reduce CPU usage.
+- Added a very limited RE: Revelations trainer.
+
+v1-60: (2014-07-01)
+- Text rendering improved.
+- Anti-cheat should no longer allow combo score at end of a run.
+- Added poke for changing partner (makes AI follow specific player). Thanks to maluc.
+- Fixed sub menus for changing cutscene camera values.
+- Added pokes for changing player camera offsets. Thanks to maluc.
+- Added optional shortcut for pausing the game. Enable it in trainer options. Shortcut is RB + X on gamepad, and Home on keyboard.
+
+v1-59: (2014-06-17)
+- Replaced cutscene camera functions. Thanks to maluc for tip on how to freeze cutscene progression.
+
+v1-58: (2014-05-19)
+- Updated RE4 trainer to work with latest patch (v1.0.6)
+- Some minor bug fixes.
+- Improvements to menu code.
+- Maximizing now removes window borders. Press ctrl+enter to return to windowed mode.
+
+v1-57: (2014-03-19)
+- Updated RE4 trainer to work with latest patch (v1.0.2)
+- Added 2 new RE4 trainer pokes: change Ashley outfit and allow Leon Mafia outfit in cutscenes.
+
+v1-56: (2014-03-02)
+- Fixed major bug with installing mods. Sorry! If you're still having trouble, you might want to reinstall the game (make sure to manually delete game directory after uninstalling the game). The problem is caused by previous version making directories with same names as filenames, making the files fail to copy over.
+- Added basic trainer support for RE4 HD. The trainer pokes lets you change money count, toggle infinite ammo, change character/outfit, change player opacity and change player speed.
+- The code does not currently check for RE4 game version, so once Capcom patches the game, the trainer functions will stop working.
+
+v1-55: (2014-02-28)
+- Fixed "seconds elapsed" stat in player stats.
+- Added an option to save a text file with player stats info (useful for keeping stats from a mercenaries run).
+- Some minor menu behaviour improvements.
+- Currently selected game now gets saved as default game in config.
+- Added basic mod manager support for RE4 (the new Ultimate HD Edition release, not the old PC release).
+
+v1-54: (2014-02-18)
+- Fixed a crash with long mod descriptions.
+
+v1-53: (2014-02-15)
+- Fixed character select and infinite health pokes when used for more than one player.
+- Added a menu for viewing information about current lobby (how many players, if they're ready, etc).
+- Changed the system for handling 6 player in no mercy. Turn on the poke for "host 6 player no mercy" any time before creating the lobby. It'll automatically freeze timer as a form of anti-cheat for other people joining the game.
+
+v1-52: (2014-02-13)
+- Fixed executable name.
+- Fixed Player Stats menu.
+
+v1-51: (2014-02-12)
+- Minor bug fixes.
+- Improved menu behaviour.
+- Added "Limited weapon loadout" poke which limits a player's inventory to one specific weapon. Good for doing different mercs challenges.
+- You can now launch RE: Revelations from the mod manager.
+- To make updates easier, the default config file has been renamed so it won't overwrite any existing config file.
+- Mod manager will now quit during startup if it detects another instance of it running.
+- Sound volume can be altered within mod manager now.
+- Added "trainer_advanced" config var which hides many of the more advanced and lesser used pokes.
+- Added pokes for setting player limit to 6 in the "create game" menu for mercs and mercs no mercy.
+- Added a new menu which shows both installed and installable mods. Old menus are still available in the main menu->mod manager menu.
+- Added a new poke which forces characters to speak with a specific voice set. The options are: quiet, normal, loud and weak.
+- Will only hook after RE6 process has been running for a while. This should fix a rare bug when hooking onto RE6.
+- PlayerStats shows some additional stats during Mercenaries.
+- Improved anti-cheat.
+
+v1-4 (2014-01-26):
+- Added jukebox feature.
+- Many bug fixes.
+- Many additions to trainer functionality (I still view it as experimental though), and it's now on by default.
+- Installing large mods will no longer seemingly freeze up the mod manager.
+
+v1-3 (2013-10-29):
+- Fixed a bug with program's idle behaviour (uses less CPU now).
+- Many changes regarding trainer functionality ("trainer_enabled: 1" to enable).
+
+v1-2 (2013-10-12):
+- Added wallpaper mode when idling. (add "trainer_wallpapermode: 0" to config file to disable this behaviour and save a few megs of ram)
+- Fixed bug when failing to load a texture.
+- Added proper icons and title to program.
+- Added more fluffiness to program.
+- Names for mods in menus now use "name=" from modinfo.ini if it exists.
+- If install dir for Revelations or RE6 isn't defined in config, it'll try a couple of default install paths automatically.
+- Added experimental trainer functions. Add "trainer_enabled: 1" to config to enable it. Emphasis on "experimental."
+- Other misc changes and minor additions.
+- One more example mod added.
+
+v1-1 (2013-09-08):
+- Made fade in/out twice as fast.
+- Fixed installing mods with RE5/REV.
+- When uninstalling a mod which overwrote files from another mod, it'll now re-copy files from another mod.
+- When installing a mod and if it's overwriting files another mod installed, it'll now display which mod files are being replaced.
+- Changed how installed.ini is saved so it won't disappear if mod manager happens to crash.
+- Filename comparisons for backups now ignore case.
+
+v1-0 (2013-09-02):
+- First release.

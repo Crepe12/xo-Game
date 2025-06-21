@@ -1,0 +1,56 @@
+[19:58:30] Loaded English game strings
+[19:58:32] Loaded monster data
+[19:58:32] Loaded abnormalities data
+[19:58:32] Loaded 101 different item crafting recipes!
+[19:58:32] Initializing HunterPie!
+[19:58:32] [MODULE] Pre loading modules
+[19:58:32] [MODULE] Pre loaded 0 module(s) in 1ms
+[19:58:33] Loaded 'MonsterHunterWorld.421810.map'
+[19:58:33] [LOG] Monster Hunter: World (421810) found! (PID: 14304)
+[19:58:33] [GMD] Indexed common\text\steam\item_eng (Strings: 5550 | Chunk Size: 247515 Bytes)
+[19:58:33] [GMD] Indexed common\text\vfont\music_skill_en (Strings: 99 | Chunk Size: 2269 Bytes)
+[19:58:33] [GMD] Indexed common\text\em_names_eng (Strings: 208 | Chunk Size: 9983 Bytes)
+[19:58:33] [MODULE] Loaded 0 module(s) in 0ms
+[19:58:33] Injected HunterPie.Native.dll succesfully!
+[19:58:33] [Socket] Connected to HunterPie.Native!
+[19:58:33] Initialized overlay with 9 widgets!
+[19:58:33] [DISCORD] Starting new RPC connection
+[19:58:33] Initialized player memory scanner
+[19:58:33] Initialized monster(1) scanner
+[19:58:33] Initialized monster(2) scanner
+[19:58:33] Initialized monster(3) scanner
+[19:58:33] Initialized game memory scanner
+[19:58:33] [LOG] Logged on Crepe12
+[19:58:33] [LOG] SESSION: Td86??e=HQCT
+[19:58:34] [DISCORD] Connected to Discord on user: crepe12#0000
+[20:07:27] [LOG] SESSION: 
+[20:07:40] [LOG] SESSION: s7mP2Xkh2B7n
+[20:07:41] [LOG] Logged on Crepe12
+[22:12:24] [LOG] SESSION: 
+[22:12:27] [LOG] Game process closed!
+[22:12:27] [MODULE] Unloaded all modules.
+[22:12:27] Stopping game scanner
+[22:12:27] [LOG] HunterPie is ready! Waiting for game process to start...
+[22:12:37] Loaded 'MonsterHunterWorld.421810.map'
+[22:12:37] [LOG] Monster Hunter: World (421810) found! (PID: 21304)
+[22:12:54] [GMD] Indexed common\text\steam\item_eng (Strings: 5550 | Chunk Size: 247515 Bytes)
+[22:12:54] [GMD] Indexed common\text\vfont\music_skill_en (Strings: 99 | Chunk Size: 2269 Bytes)
+[22:12:54] [GMD] Indexed common\text\em_names_eng (Strings: 208 | Chunk Size: 9983 Bytes)
+[22:12:54] [MODULE] Loaded 0 module(s) in 0ms
+[22:12:54] Injected HunterPie.Native.dll succesfully!
+[22:12:55] [Socket] Connected to HunterPie.Native!
+[22:12:55] Initialized overlay with 9 widgets!
+[22:12:55] [DISCORD] Starting new RPC connection
+[22:12:55] Initialized player memory scanner
+[22:12:55] Initialized monster(1) scanner
+[22:12:55] [LOG] SESSION: 
+[22:12:55] Initialized monster(2) scanner
+[22:12:55] Initialized monster(3) scanner
+[22:12:55] Initialized game memory scanner
+[22:12:56] [DISCORD] Connected to Discord on user: crepe12#0000
+[22:13:29] [LOG] SESSION: r6MXF88Jt6W7
+[22:13:30] [LOG] Logged on Crepe12
+[23:35:54] [LOG] SESSION: 
+[23:35:58] [LOG] Game process closed!
+[23:35:58] [MODULE] Unloaded all modules.
+[23:35:58] Stopping game scanner

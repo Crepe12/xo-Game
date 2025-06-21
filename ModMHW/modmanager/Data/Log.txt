@@ -1,0 +1,30 @@
+OpenGL version: 4.6.0 NVIDIA 572.60
+OpenGL vendor: NVIDIA Corporation
+OpenGL renderer: NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2
+Default sleep time: 14.987500
+Initialized menus.
+Network initialized.
+Initialized network.
+Initialized input.
+Initialized sound.
+Initialized texture loading.
+Initialized secondary framebuffers.
+Loaded menu and GUI textures.
+Mod manager initializing...
+Mod manager finished initialization!
+Fluffy Mod Manager v3.055 (formerly known as Fluffy Manager 5000)
+Current Windows user doesn't have adminstrative rights.
+If you run into issues, try right-clicking the modmanager executable and selecting run as admin.
+Finished init.
+You're running the most up-to-date version of Fluffy Mod Manager.
+Invalid or missing install path. Trying to automatically acquire it...
+Mod managing disabled: Could not find MonsterHunterWilds.exe.
+Failed to download file: Could not identify file extension  0x0.000000014ef80p-1022s a common image type (null)
+File download failed. If you're a technical user and wish to troubleshoot this, you can look at TmpDownload\download.bin in a hex editor.
+Failed to download file: Could not identify file extension  0x0.000000014ef80p-1022s a common image type (null)
+File download failed. If you're a technical user and wish to troubleshoot this, you can look at TmpDownload\download.bin in a hex editor.
+Using this Monster Hunter Wilds install: E:\SteamLibrary\steamapps\common\MonsterHunterWilds
+Skipping reading Games\MonsterHunterWilds\rsz.json as it could not be read or does not exist.
+Mod manager de-initializing...
+Wrote Games\MonsterHunterWilds\ModinfoCache.bin
+Mod manager finished de-initialization!
